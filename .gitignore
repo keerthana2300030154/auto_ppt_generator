@@ -1,5 +1,31 @@
+# Virtual Environment
 venv/
-__pycache__/
-*.pyc
+env/
+.venv/
+
+# Environment Variables (NEVER push this - contains your API key!)
 .env
-output.pptx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Output files (generated presentations)
+output/
+
+# VS Code settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
